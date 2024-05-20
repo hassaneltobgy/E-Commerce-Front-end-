@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in page</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    
+  
+</head>
+<body >
+  
+    <div class="signincontainer">
+
+    <div class="signinform">
+        <h1 id="signtitle">Log in</h1>
+        <form  >
+            <div>
+                
+               
+                <div class="input-field">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="text" placeholder="email" name="Email" >
+
+                </div>
+              
+
+                <div class="input-field">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" placeholder="password" name="password" >
+
+                </div>
+                 <p id="forgetpassword">Forget Password ? <a href="ForgetPassword.html" id="linkforget">Click Here </a></p>
+
+      <div class="Loginbtns">
+                <button  type="button" onclick="login()"><b>Log in</b></button>
+                <button  type="button" onclick="createaccount()"><b>Create New account</b></button>
+            </div>
+
+        </form>
+    </div>
+    
+    <script src="javascript.js"></script>
+</body>
+</html>
